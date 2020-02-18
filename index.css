@@ -1,0 +1,175 @@
+:root{
+    --warnamain: rgb(48, 104, 92);
+}
+/* buat nyimpen branding color font etc */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 14;
+    color: rgb(66, 66, 66);
+}
+/*Header Starts*/
+.header{
+    background-color: white;
+    color: dimgray;
+    height: 70px;
+    display: flex;
+    padding-left: 20px; 
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.headercontent{
+    display: flex;
+    margin-left: 20px;
+    width: 30%;
+    font-size: 30px;
+    line-height: 70px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+/*Header Ends*/
+.navmenu{
+    display: flex;
+    width: 70%;
+    margin-left: 45%;
+    margin-top: 25px;
+}
+.navmenu div{
+    padding: 0px 20px;
+}
+.bodycontent{
+    margin:100px 50px 0px 20px;
+}
+
+.container1{
+    background-color: rgb(179, 146, 146);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/421129/pexels-photo-421129.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container1 div{
+    font-size: 40px;
+    color: #fff;
+}
+
+.container1 input{
+    margin-top: 10px;
+    width: 400px;
+    height: 35px;
+    border: hidden;
+    border-radius: 5px;
+}
+
+.container2{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between; 
+}
+
+.container2 .cards{
+    color: grey;
+    flex-basis: 32%; 
+    /* flex basis sama width sama ae */
+    height: 350px;
+    width: 300px;
+}
+
+.container3 {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between; 
+   
+}
+.container3 .cards{
+    color: grey;
+    flex-basis: 23%; 
+    /* flex basis sama width sama ae */
+    height: 270px;
+    width: 200px;
+}
+.card_img{
+    height: 70%;
+    border-radius: 10px;
+}
+.cards p{
+    margin-top: 8px;
+    font-size: 12px;
+}
+.cards h4{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(221, 9, 97);
+}
+
+.desc{
+    margin:30px 50px 0px 50px;
+}
+.cardssmall{
+    display: flex;
+    margin: 0px 7px 7px 7px;
+}
+
+.cardssmall p{
+    margin-left: 8px;
+}
+
+.cardssmall h4{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 8px;
+    color: rgb(221, 9, 97);
+}
+
+.cardssmall .card_img{
+    border-radius: 5px;
+    width: 150px;
+    height:80px;
+}
+
+/* bagian bawah */
+.bottombarwrapper{
+    background-color: rgb(39, 39, 39);
+}
+.bottombar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px 50px 80px;
+    
+}
+
+.bottombar div{
+    width: 200px;
+    padding: 40px 0px 40px 0px;
+    
+}
+
+.bottombar p{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.socmedicon{
+    width: 10px;
+}
+
+
+/* kalo mau buat satu sec kecil satu sec bigger pake flex ae. flex 1 flex 4 dsb */
